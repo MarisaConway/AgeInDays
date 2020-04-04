@@ -1,8 +1,8 @@
-.container-1{
+.container-1 {
     border: 1px solid black;
     width: 75%;
     text-align: center;
-    margin-left: 150px;
+    margin: 0 auto;
 }
 
 .flex-box-container-1{
@@ -15,9 +15,111 @@
 }
 
 .flex-box-container-1 div {
+    display:flex;
     padding:10px;
     border: 1px solid black;
-    justify-content: space-around;
     align-items: center;
 }
 
+.container-2 {
+    border: 1px solid ;
+    width:75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flex-box-container-2 img {
+    /* border: 1px solid green; */
+    padding: 10px;
+}
+
+.container-3 {
+    width: 75%;
+    margin: 0 auto;
+    text-align:center;
+    border: 1px solid black;
+}
+
+.flex-box-rps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+.container-4{
+    width: 75%;
+    margin: 0 auto;
+    text-align:center;
+    border: 1px solid black;
+}
+.flex-box-pick-colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.container-5{
+    width: 75%;
+    margin: 0 auto;
+    text-align:center;
+    border: 1px solid black;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url('https://images-na.ssl-images-amazon.com/images/I/A1DGel5VHBL._AC_SX425_.jpg');
+    color:white;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.flex-blackjack-row-2 div {
+    border: 1px solid black;
+    padding: 10px;
+}
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+}
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+}
